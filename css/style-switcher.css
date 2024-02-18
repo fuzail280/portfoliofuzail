@@ -1,0 +1,86 @@
+.style-switcher{
+    position: fixed;
+    right: 0;
+    top: 70px;
+    width: 200px;
+    border: 1px solid #e8dfec;
+    background:#fdf9ff;
+    z-index: 101;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    transform: translateX(100%);
+}
+
+.style-switcher.open{
+    transform: translateX(-25px);
+}
+
+.style-switcher .s-icon{
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    font-size: 20px;
+    background: #fdf9ff;
+    color: #302e4d;
+    right: 100%;
+    border: 1px solid #e8dfec;
+    margin-right: 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border-radius: 50%;
+}
+
+.style-switcher .s-icon i{
+    line-height: 40px;
+}
+
+.style-switcher .style-switcher-toggler{
+    top: 0;
+}
+
+.style-switcher .day-night{
+    top: 55px;
+}
+
+.style-switcher h4{
+    margin: 0 0 10px;
+    color: #504e70;
+    font-size: 16px;
+    font-weight: 600px;
+    text-transform: capitalize;
+}
+
+.style-switcher .colors{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.style-switcher .colors span{
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+
+.style-switcher .color1{
+    background: #00a78e;
+}
+
+.style-switcher .color2{
+    background: red;
+}
+
+.style-switcher .color3{
+    background: rgb(252, 158, 174);
+}
+
+.style-switcher .color4{
+    background: cyan;
+}
+
+.style-switcher .color5{
+    background: orange;
+}
+
